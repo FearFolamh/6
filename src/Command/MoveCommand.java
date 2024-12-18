@@ -1,4 +1,8 @@
 package Command;
 
-public class MoveCommand {
+class MoveCommand implements Command {
+    @Override
+    public void execute() {
+        System.out.println("Player moves forward.");
+    }
 }

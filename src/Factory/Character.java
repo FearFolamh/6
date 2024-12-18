@@ -1,4 +1,5 @@
 package Factory;
 
-public interface Character {
+interface Character {
+    void attack();
 }
